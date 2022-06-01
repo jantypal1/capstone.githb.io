@@ -1,0 +1,111 @@
+@import url(./main.css);
+
+.news_letter {
+  top: 6456px;
+  left: -10px;
+  width: 100%;
+  height: auto;
+  /* UI Properties */
+  /* background: var(--white-ffffff) 0% 0% no-repeat padding-box; */
+  border: 1px solid var(--oxford-blue-354e57);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #354e57;
+  opacity: 1;
+  /* padding: 20px; */
+}
+.news_letter .News_letter_box {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 100%;
+}
+.news_letter .News_letter_box .inner_box_1 {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.news_letter .News_letter_box .inner_box_1 h3 {
+  /* top: 6491px;
+  left: 137px;
+  width: 202px;
+  height: 78px; */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-32) / var(--unnamed-line-spacing-38)
+    var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: left;
+  font: normal normal bold 32px/38px Proxima Nova;
+  letter-spacing: 0px;
+  color: #354e57;
+  opacity: 1;
+}
+.news_letter .News_letter_box .inner_box_1 .vl {
+  border-left: 1px solid lightgray;
+  height: 50px;
+}
+.news_letter .News_letter_box .inner_box_1 h6 {
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) 16px/20px
+    var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+  text-align: left;
+  font: normal normal normal 16px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #354e57;
+  opacity: 1;
+}
+.field {
+  display: flex;
+  position: realtive;
+  margin: 1.5em 2.5em;
+  width: 399px;
+  height: 40px;
+  flex-direction: row;
+}
+
+.field > input[type="text"],
+.field > button {
+  display: block;
+}
+
+.field > input[type="text"] {
+  flex: 1;
+  padding: 0.6em;
+  border: 0.1em solid #956a53;
+}
+
+.field > button {
+  padding: 0.5em 0.7em;
+  background-color: #956a53;
+  color: #fff;
+  border: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 920px) {
+  .news_letter .News_letter_box {
+    display: block;
+  }
+  .news_letter .News_letter_box .inner_box_1 {
+    width: 100%;
+    display: block;
+  }
+  .field {
+    display: flex;
+    margin: 2em 0em;
+    width: 100%;
+    height: 40px;
+    flex-direction: row-reverse;
+}
+.news_letter .News_letter_box .inner_box_1 .vl {
+    border-bottom: 1px solid lightgray;
+    border-left: none;
+    height: 0px;
+    padding-top: 15px;
+}
+.news_letter .News_letter_box .inner_box_1 h6 {
+  padding-top: 15px;
+  }
+}
