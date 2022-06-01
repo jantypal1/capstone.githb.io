@@ -1,6 +1,6 @@
-@import url("../style/main.css");
-@import url("../style/Header.css");
-@import url("../style/Hero_banner.css");
+@import url("./main.css");
+@import url("./Header.css");
+@import url("./Hero_banner.css");
 @import url("./secondary_banner.css");
 @import url("./feature_banner.css");
 @import url("./News_letter.css");
