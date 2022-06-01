@@ -1,4 +1,4 @@
-@import url("../style/main.css");
+@import url("./main.css");
 
 .hero_banner {
   display: flex;
@@ -102,7 +102,7 @@
   top: 11rem;
 }
 .bottle_image::before {
-  /* content: url("../assets/plant1.png");
+  /* content: url(".plant1.png");
   max-width: 50%;
   position: absolute;
   right: 25%;
@@ -115,7 +115,7 @@
   width: 100%;
   z-index: -1;
   height: 100%;
-  background: url(../assets/plant1.png) no-repeat;
+  background: url(./plant1.png) no-repeat;
   background-size: contain;
 }
 .bottle_image::after {
@@ -130,7 +130,7 @@
   width: 100%;
   z-index: 1;
   height: 100%;
-  background: url(../assets/plant2.png) no-repeat;
+  background: url(./plant2.png) no-repeat;
   background-size: 50%;
   z-index: -1;
 }
