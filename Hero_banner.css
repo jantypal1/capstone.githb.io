@@ -136,7 +136,113 @@
 }
 /* APPLYING MEDIA QUERIES */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 920px) {
+@media only screen and (min-device-width: 100px) and (max-device-width: 320px) {
+  .hero_banner_right .bottle_image img {
+    height: 90%;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.bottle_image::before {
+  position: absolute;
+  top: 35%;
+  left: -31%;
+}
+.bottle_image::after {
+  position: absolute;
+  top: 38%;
+  left: 39%;
+}
+.hero_banner {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+}
+.hero_banner_left {
+  padding-left: 0rem;
+  width: 100%;
+}
+.shop_product_btn{
+  display: flex;
+  justify-content: center;
+}
+.hero_banner_right {
+  width: 100%;
+  margin-top: 65%;
+}
+.hero_banner_left .new_box {
+  visibility: hidden;
+}
+.hero_banner_right .hand_image {
+  width: 140%;
+}
+.hero_banner_right img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.hero_banner_right .bottle_image {
+  height: 35%;
+  position: absolute;
+  top: 15%;
+  right: 23%;
+  z-index: -1;
+}
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 575px) {
+  .hero_banner_right .bottle_image img {
+    height: 90%;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.bottle_image::before {
+  position: absolute;
+  top: 35%;
+  left: -31%;
+}
+.bottle_image::after {
+  position: absolute;
+  top: 38%;
+  left: 39%;
+}
+.hero_banner {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+}
+.hero_banner_left {
+  padding-left: 0rem;
+  width: 100%;
+}
+.shop_product_btn{
+  display: flex;
+  justify-content: center;
+}
+.hero_banner_right {
+  width: 100%;
+  margin-top: 65%;
+}
+.hero_banner_left .new_box {
+  visibility: hidden;
+}
+.hero_banner_right .hand_image {
+  width: 140%;
+}
+.hero_banner_right img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.hero_banner_right .bottle_image {
+  height: 43%;
+  position: absolute;
+  top: 13%;
+  right: 22%;
+  z-index: -1;
+}
+
+}
+
+@media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
   .hero_banner {
     display: flex;
     flex-direction: column-reverse;
@@ -154,28 +260,10 @@
     width: 100%;
     margin-top: 65%;
   }
-  /* .hero_banner_right .bottle_image img {
-        height: 60%;
-      }
-      .hand_image {
-        z-index: 0;
-    }
-      .bottle_image::before, .bottle_image::after {
-        z-index: 1;
-      }
-    .hero_banner_right .hand_image img {
-      max-width: 135%;
-      height: 100%;
-  }*/
   .hero_banner_left .new_box {
     visibility: hidden;
   }
-  /* .hero_banner_right .bottle_image {
-    height: 100%;
-} */
   .hero_banner_right .hand_image {
-    /* position: relative; */
-    /* right: 35%; */
     width: 140%;
   }
   .hero_banner_right img {
@@ -184,15 +272,53 @@
     z-index: 1;
   }
   .hero_banner_right .bottle_image {
-    /* position: absolute;
-      right: 6rem;
-      top: 9rem; */
-    height: 35%;
+    height: 90%;
     position: absolute;
-    top: 13%;
-    right: 21%;
+    top: 45%;
+    right: 28%;
     z-index: -1;
+}
+  .hero_banner_right .bottle_image img {
+    height: 80%;
   }
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .hero_banner {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .hero_banner_left {
+    padding-left: 0rem;
+    width: 100%;
+  }
+  .shop_product_btn{
+    display: flex;
+    justify-content: center;
+  }
+  .hero_banner_right {
+    width: 100%;
+    margin-top: 65%;
+  }
+  .hero_banner_left .new_box {
+    visibility: hidden;
+  }
+  .hero_banner_right .hand_image {
+    width: 140%;
+  }
+  .hero_banner_right img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .hero_banner_right .bottle_image {
+    height: 100%;
+    position: absolute;
+    top: 65%;
+    right: 31%;
+    z-index: -1;
+}
   .hero_banner_right .bottle_image img {
     height: 80%;
   }

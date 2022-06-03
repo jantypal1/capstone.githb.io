@@ -162,11 +162,24 @@ background-color: #fff;
   opacity: 1;
   padding: 8px;
 }
+
 .image_bg img,
 .image_background img {
   margin-top: 60px;
   margin-left: 15px;
   width: 90%;
+}
+.bg_image_box_1 {
+  background: #fff url("../assets/acne_cream.png") 50% 140% no-repeat padding-box;
+}
+.bg_image_box_2 {
+  background: #fff url("../assets/vitiligio.png") 50% 90% no-repeat padding-box;
+}
+.bg_image_box_3 {
+  background: #e3e5e4 url("../assets/soothbottle.png") 50% 80% no-repeat padding-box;
+}
+.bg_image_box_4 {
+  background: #fff url("../assets/sunburn.png") 50% 65% no-repeat padding-box;
 }
 .image_background {
   background-color: #e3e5e4;
@@ -184,7 +197,20 @@ background-color: #fff;
 .Second_product_teaser {
   margin-top: 93px;
 }
-@media only screen and (min-device-width: 200px) and (max-device-width: 768px) {
+.products .background_hover_image {
+  height: 100%;
+  width: 100% !important;
+}
+.products .background_hover_image img{
+  object-fit: cover;
+}
+#bg_1:hover {
+background: url(../assets/smiling_boy.png) 0% 0% no-repeat padding-box;
+
+background-size: 300px 462px;
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 320px) { 
   .popular_all_products,
   .image_bg .new_box,
   .image_bg .discount_box {
@@ -193,6 +219,7 @@ background-color: #fff;
   .Products {
     display: block;
     margin-top: 0px;
+    margin-left: -20px;
   }
   .Products .product_box_1, .Products .product_box_2 {
     display: flex;
@@ -207,7 +234,77 @@ background-color: #fff;
     height: 462px;
     margin: auto;
     /* text-align: center; */
-    padding-left: 4px;
+    /* padding-left: 0px; */
+  }
+  .image_bg {
+    background-color: #fff;
+    width: 100%;
+    height: 346px;
+  }
+  .card button {
+    width: 135px;
+}
+  .card button i {
+    display: none;
+  }
+  /* .card button:hover {
+    display: block;
+  } */
+  .image_background {
+    width: 100%;
+    margin-top: 0px;
+}
+.image_bg img, .image_background img {
+  width: 130%;
+  margin-top: 85px;
+  margin-left: -20px;
+}
+  .Products .product_box_2 {
+    margin-top: 29px;
+  }
+
+  .bg_image_box_1 {
+    background: #fff url("../assets/acne_cream.png") 50% 80% no-repeat padding-box;
+    background-size: 130px 180px;
+  }
+  .bg_image_box_2 {
+    background: #fff url("../assets/vitiligio.png") 50% 60% no-repeat padding-box;
+    background-size: 160px 195px;
+  }
+  .bg_image_box_3 {
+    background: #e3e5e4 url("../assets/soothbottle.png") 50% 60% no-repeat padding-box;
+    background-size: 160px 195px;
+  }
+  .bg_image_box_4 {
+    background: #fff url("../assets/sunburn.png") 50% 60% no-repeat padding-box;
+    background-size: 160px 195px;
+  }
+}
+@media only screen and (min-device-width: 321px) and (max-device-width: 768px) {
+  .popular_all_products,
+  .image_bg .new_box,
+  .image_bg .discount_box {
+    display: none;
+  }
+  .Products {
+    display: block;
+    margin-top: 0px;
+    margin-left: -20px;
+  }
+  .Products .product_box_1, .Products .product_box_2 {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.product_1, .product_2 {
+  width: 100%;
+}
+  .card {
+    max-width: 300px;
+    height: 462px;
+    margin: auto;
+    /* text-align: center; */
+    /* padding-left: 4px; */
   }
   .image_bg {
     background-color: #fff;
@@ -234,4 +331,56 @@ background-color: #fff;
   .Products .product_box_2 {
     margin-top: 29px;
   }
+  .bg_image_box_1 {
+    background: #fff url("../assets/acne_cream.png") 50% 80% no-repeat padding-box;
+    background-size: 130px 180px;
+  }
+  .bg_image_box_2 {
+    background: #fff url("../assets/vitiligio.png") 50% 60% no-repeat padding-box;
+    background-size: 160px 195px;
+  }
+  .bg_image_box_3 {
+    background: #e3e5e4 url("../assets/soothbottle.png") 50% 60% no-repeat padding-box;
+    background-size: 160px 195px;
+  }
+  .bg_image_box_4 {
+    background: #fff url("../assets/sunburn.png") 50% 60% no-repeat padding-box;
+    background-size: 160px 195px;
+  }
+}
+@media only screen and (min-device-width: 991px) and (max-device-width: 1024px) {
+  .popular_all_products,
+  .image_bg .new_box,
+  .image_bg .discount_box {
+    display: none;
+  }
+  .Products {
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+  .card {
+    max-width: 300px;
+    height: 462px;
+    margin: auto;
+  }
+  .image_bg {
+    background-color: #fff;
+    width: 100%;
+    height: 346px;
+  }
+  .card button {
+    width: 100%;
+  }
+  .image_background {
+    width: 100%;
+    margin-top: 0px;
+}
+  .image_bg img,
+  .image_background img {
+    width: 100%;
+  }
+  /* .Products .product_box_2 {
+    margin-top: 29px;
+  } */
 }
