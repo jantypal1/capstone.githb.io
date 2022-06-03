@@ -1,4 +1,4 @@
-@import url(../style/main.css);
+@import url(./main.css);
 
 .product_teaser_section {
   background-color: #eef3f4;
@@ -170,31 +170,31 @@ background-color: #fff;
   width: 90%;
 }
 .bg_image_box_1 {
-  background: #fff url("../assets/acne_cream.png") 50% 140% no-repeat padding-box;
+  background: #fff url("./acne_cream.png") 50% 140% no-repeat padding-box;
 }
 .bg_image_box_1:hover {
-  background: url(../assets/product_image_hover_1.png) 0% 0% no-repeat padding-box;
+  background: url(./product_image_hover_1.png) 0% 0% no-repeat padding-box;
   background-size: 300px 462px;
 }
 .bg_image_box_2 {
-  background: #fff url("../assets/vitiligio.png") 50% 90% no-repeat padding-box;
+  background: #fff url("./vitiligio.png") 50% 90% no-repeat padding-box;
 }
 .bg_image_box_2:hover {
-  background: url(../assets/product_image_hover_2.png) 0% 0% no-repeat padding-box;
+  background: url(./product_image_hover_2.png) 0% 0% no-repeat padding-box;
   background-size: 300px 462px;
 }
 .bg_image_box_3 {
-  background: #e3e5e4 url("../assets/soothbottle.png") 50% 80% no-repeat padding-box;
+  background: #e3e5e4 url("./soothbottle.png") 50% 80% no-repeat padding-box;
 }
 .bg_image_box_3:hover {
-  background: url(../assets/product_image_hover_3.png) 0% 0% no-repeat padding-box;
+  background: url(./product_image_hover_3.png) 0% 0% no-repeat padding-box;
   background-size: 300px 462px;
 }
 .bg_image_box_4 {
-  background: #fff url("../assets/sunburn.png") 50% 65% no-repeat padding-box;
+  background: #fff url("./sunburn.png") 50% 65% no-repeat padding-box;
 }
 .bg_image_box_4:hover {
-  background: url(../assets/product_image_hover_4.png) 0% 0% no-repeat padding-box;
+  background: url(./product_image_hover_4.png) 0% 0% no-repeat padding-box;
   background-size: 300px 462px;
 }
 .image_background {
@@ -276,19 +276,19 @@ background-color: #fff;
   }
 
   .bg_image_box_1 {
-    background: #fff url("../assets/acne_cream.png") 50% 80% no-repeat padding-box;
+    background: #fff url("./acne_cream.png") 50% 80% no-repeat padding-box;
     background-size: 130px 180px;
   }
   .bg_image_box_2 {
-    background: #fff url("../assets/vitiligio.png") 50% 60% no-repeat padding-box;
+    background: #fff url("./vitiligio.png") 50% 60% no-repeat padding-box;
     background-size: 160px 195px;
   }
   .bg_image_box_3 {
-    background: #e3e5e4 url("../assets/soothbottle.png") 50% 60% no-repeat padding-box;
+    background: #e3e5e4 url("./soothbottle.png") 50% 60% no-repeat padding-box;
     background-size: 160px 195px;
   }
   .bg_image_box_4 {
-    background: #fff url("../assets/sunburn.png") 50% 60% no-repeat padding-box;
+    background: #fff url("./sunburn.png") 50% 60% no-repeat padding-box;
     background-size: 160px 195px;
   }
 }
@@ -344,19 +344,19 @@ background-color: #fff;
     margin-top: 29px;
   }
   .bg_image_box_1 {
-    background: #fff url("../assets/acne_cream.png") 50% 80% no-repeat padding-box;
+    background: #fff url("./acne_cream.png") 50% 80% no-repeat padding-box;
     background-size: 130px 180px;
   }
   .bg_image_box_2 {
-    background: #fff url("../assets/vitiligio.png") 50% 60% no-repeat padding-box;
+    background: #fff url("./vitiligio.png") 50% 60% no-repeat padding-box;
     background-size: 160px 195px;
   }
   .bg_image_box_3 {
-    background: #e3e5e4 url("../assets/soothbottle.png") 50% 60% no-repeat padding-box;
+    background: #e3e5e4 url("./soothbottle.png") 50% 60% no-repeat padding-box;
     background-size: 160px 195px;
   }
   .bg_image_box_4 {
-    background: #fff url("../assets/sunburn.png") 50% 60% no-repeat padding-box;
+    background: #fff url("./sunburn.png") 50% 60% no-repeat padding-box;
     background-size: 160px 195px;
   }
 }
